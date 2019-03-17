@@ -25,7 +25,7 @@ public class IndexController {
     @RequestMapping({"", "/", "/index"})
     public String getIndexPage(Model model) {
         model.addAttribute("recipes", recipeService.getRecipes());
-        log.debug("Home page navigated too");
+        //log.debug("Home page navigated too");
         return "index";
     }
 }

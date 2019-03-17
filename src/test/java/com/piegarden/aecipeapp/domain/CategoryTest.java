@@ -30,4 +30,12 @@ public class CategoryTest {
     @Test
     public void getRecipes() {
     }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
 }
